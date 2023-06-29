@@ -1,0 +1,10 @@
+.barra {
+  font-family: "Cousine", monospace;
+}
+
+#Hero-Section {
+  background-image: url("../img/imagen1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
