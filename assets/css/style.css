@@ -3,15 +3,27 @@ body {
 }
 
 #primera-parte {
-  background-image: url(../img/imagen4.jpg);
+  background-image: url(../img/fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
-  backdrop-filter: blur(100px);
   margin: 0%;
   padding: 0%;
   text-align: center;
+  color: black;
 }
 
-.navbar {
+#Acerca-de-mi {
+  color: black;
+}
+
+.listadoImágenes {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 73px;
+}
+
+.listadoImágenes img {
+  width: 316px;
+  height: 202px;
 }
