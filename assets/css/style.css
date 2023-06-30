@@ -1,3 +1,7 @@
-body {
-  font-family: "Courier New", Courier, monospace;
+#primera-parte {
+  background-image: url(../img/imagen1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  backdrop-filter: blur(100px);
 }
