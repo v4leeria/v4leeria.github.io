@@ -1,7 +1,17 @@
+body {
+  font-family: "Cousine", monospace;
+}
+
 #primera-parte {
-  background-image: url(../img/imagen1.JPG);
+  background-image: url(../img/imagen4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
   backdrop-filter: blur(100px);
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+.navbar {
 }
