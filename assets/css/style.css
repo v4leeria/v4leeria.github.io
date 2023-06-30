@@ -1,11 +1,14 @@
 body {
   font-family: "Cousine", monospace;
-}
-
-#primera-parte {
   background-image: url(../img/fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.navbar {
+  background-color: white;
+}
+
+#primera-parte {
   margin: 0%;
   padding: 0%;
   text-align: center;
@@ -14,16 +17,25 @@ body {
 
 #Acerca-de-mi {
   color: black;
+  background-color: white;
+  padding: 2rem;
 }
 
+#Textos-acerca-de-mi {
+  color: black;
+  text-align: center;
+}
 .listadoImágenes {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  padding: 73px;
+  gap: 5rem;
+  padding: auto;
 }
 
 .listadoImágenes img {
-  width: 316px;
-  height: 202px;
+  width: 20rem;
+}
+#Habilidades {
+  background-color: white;
+  padding: 2rem;
 }
