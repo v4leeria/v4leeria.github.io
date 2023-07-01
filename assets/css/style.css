@@ -1,41 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 body {
   font-family: "Cousine", monospace;
-  background-image: url(../img/fondo.png);
+  background-image: url(../img/fondo2.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.navbar {
-  background-color: white;
+  backdrop-filter: blur(3px);
 }
 
-#primera-parte {
+/* #primera-parte {
   margin: 0%;
   padding: 0%;
   text-align: center;
-  color: black;
-}
+  color: #795442;
+} */
 
 #Acerca-de-mi {
-  color: black;
+  color: #9f9292;
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 
-#Textos-acerca-de-mi {
-  color: black;
-  text-align: center;
-}
-.listadoImágenes {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  padding: auto;
-}
-
-.listadoImágenes img {
-  width: 20rem;
-}
 #Habilidades {
-  background-color: white;
   padding: 2rem;
+  color: white;
+  background-color: #d7d6d2;
+  margin: auto;
+}
+.listadoImágenes img {
+  background-color: white;
+  width: 18rem;
 }
