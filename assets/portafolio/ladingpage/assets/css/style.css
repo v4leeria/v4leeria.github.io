@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f1e7ff;
+}
+.header {
+  height: 13em;
+  background-image: url("../imgs/fondo.svg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-size: 1em;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+
+.header h1 {
+  margin: 0px;
+  padding-left: 100px;
+  padding-top: 1em;
+  font-size: 3em;
+}
+.header p {
+  margin: auto;
+  padding-left: 100px;
+  padding-top: 1.5em;
+}
+.productos {
+  margin: auto;
+  width: 80%;
+  padding: 2em;
+  padding-top: 15em;
+}
+
+.productos td {
+  width: 50%;
+  padding: 1.5em;
+}
+
+.productos img {
+  border: solid 2px #5b4679;
+  border-radius: 5%;
+}
+
+.footer {
+  background-color: #5b4679;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

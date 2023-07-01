@@ -21,6 +21,12 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -41,21 +47,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#Acerca-de-mi"
-                >Acerca de mí</a
+              <a class="nav-link active" aria-current="page" href="#Habilidades"
+                >Habilidades</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Estudios">Estudios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portafolio">Portafolio</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -73,8 +76,8 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li><a class="dropdown-item" href="#">Contacto</a></li>
-                <li><a class="dropdown-item" href="#">Ubicación</a></li>
-                <li><a class="dropdown-item" href="#">Portafolio</a></li>
+                <li><a class="dropdown-item" href="#">RRSS</a></li>
+                <li><a class="dropdown-item" href="#">Trabajos</a></li>
               </ul>
             </li>
           </ul>
@@ -112,11 +115,6 @@
     </div>
     <section id="Habilidades" class="container-fluid text-center">
       <h2 class="display-3 fw-bold my-4">Habilidades</h2>
-      <!-- <div class="container-fluid listadoImágenes">
-        <img src="./assets/img/CREATIVIDAD1.png" alt="Creatividad" />
-        <img src="./assets/img/ORDEN1.png" alt="Orden" />
-        <img src="./assets/img/RESILIENCIA1.png" alt="Resiliencia" />
-      </div> -->
     </section>
     <div
       id="carouselExampleIndicators"
@@ -150,21 +148,21 @@
         <div class="carousel-item active">
           <img
             src="assets/img/habilidades/CREATIVIDAD.png"
-            class="d-block w-50"
+            class="d-block w-75"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/img/habilidades/ORDEN.png"
-            class="d-block w-50"
+            class="d-block w-75"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/img/habilidades/RESILIENCIA.png"
-            class="d-block w-50"
+            class="d-block w-75"
             alt="..."
           />
         </div>
@@ -194,7 +192,11 @@
       <div class="container">
         <div class="row">
           <div class="card my-4 p-4 m-1" style="max-width: 27rem">
-            <h2 class="tituloColumna fw-bold" style="text-align: center">
+            <h2
+              id="Estudios"
+              class="tituloColumna fw-bold"
+              style="text-align: center"
+            >
               Estudios
             </h2>
             <ol>
@@ -207,7 +209,11 @@
             </ol>
           </div>
           <div class="card my-4 p-4 m-1" style="width: 27rem">
-            <h2 class="tituloColumna fw-bold" style="text-align: center">
+            <h2
+              id="Experiencia"
+              class="tituloColumna fw-bold"
+              style="text-align: center"
+            >
               Experiencia
             </h2>
             <ol>
@@ -222,5 +228,105 @@
         </div>
       </div>
     </section>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <h2 id="Portafolio" class="portafolio display-4 fw-bold my-4" style="text-align: center">Portafolio</h2>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="50000">
+          <img
+            src="assets/img/portafolio/ladingpage.JPG"
+            class="d-block w-75"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="assets/img/portafolio/cupon.JPG"
+            class="d-block w-75"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="assets/img/portafolio/iguanapage.JPG"
+            class="d-block w-75"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/portafolio/github.JPG"
+            class="d-block w-75"
+            alt="..."
+          />
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <footer>
+      <p>
+        Valeria Donoso
+        <br>
+        2023
+      </p>
+    </footer>
   </body>
 </html>

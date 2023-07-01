@@ -6,13 +6,6 @@ body {
   backdrop-filter: blur(3px);
 }
 
-/* #primera-parte {
-  margin: 0%;
-  padding: 0%;
-  text-align: center;
-  color: #795442;
-} */
-
 #Acerca-de-mi {
   color: #9f9292;
   background-color: white;
@@ -38,10 +31,6 @@ body {
   background-color: #d7d6d2;
   margin: auto;
 }
-/* .listadoImágenes img {
-  background-color: white;
-  width: 18rem;
-} */
 
 .carousel-inner img {
   margin: auto;
@@ -51,4 +40,17 @@ body {
 
 .list-group-item {
   background-color: white;
+}
+
+#Portafolio {
+  background-color: white;
+  color: #d7d6d2;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #d7d6d2;
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
 }
