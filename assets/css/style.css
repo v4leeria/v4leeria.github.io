@@ -20,6 +20,18 @@ body {
   margin-bottom: 2rem;
 }
 
+.card {
+  margin: 1rem;
+}
+.card img {
+  width: auto;
+  max-width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 #Habilidades {
   padding: 2rem;
   color: white;
