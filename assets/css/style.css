@@ -33,12 +33,31 @@ body {
 }
 
 #Habilidades {
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   background-color: #d7d6d2;
   margin: auto;
 }
-.listadoImágenes img {
+/* .listadoImágenes img {
   background-color: white;
   width: 18rem;
+} */
+
+.carousel-inner img {
+  margin: auto;
+  display: block;
+  justify-content: center;
+}
+
+.list-group-item {
+  background-color: white;
+}
+
+#Estudios {
+  background-color: white;
+}
+
+#Experiencia {
+  background-color: #d7d6d2;
+  color: white;
 }
