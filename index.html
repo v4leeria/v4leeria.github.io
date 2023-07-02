@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Portafolio VD</title>
-    <link rel="icon" href="assets/img/logohead.png">
+    <link rel="icon" href="assets/img/logohead.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,11 +24,11 @@
       crossorigin="anonymous"
     ></script>
     <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous"
-  />
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -78,7 +78,14 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li><a class="dropdown-item" href="#Contacto">Contacto</a></li>
-                <li><a class="dropdown-item" href="https://drive.google.com/file/d/1qpeETz6tFQgZ29eoKwHR8evyb_vMx3MX/view?usp=drive_link" target="_blank">Portafolio cine</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://drive.google.com/file/d/1qpeETz6tFQgZ29eoKwHR8evyb_vMx3MX/view?usp=drive_link"
+                    target="_blank"
+                    >Portafolio cine</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -90,8 +97,8 @@
       <h2 class="display-4 fw-bold my-4">Acerca de mí</h2>
     </section>
     <!--  acerca de mi card -->
-    <div class="card mb-3" style="max-width: 540px">
-      <div class="row g-0 d-flex justify-content-center align-items-center">
+    <div id="Acercademicolomna" class="card" style="max-width: 540px">
+      <div class="row col-12 d-flex justify-content-center">
         <div class="col-md-4">
           <img
             src="assets/img/fotomia.JPG"
@@ -119,7 +126,7 @@
     </section>
     <div
       id="carouselExampleIndicators"
-      class="carousel slide m-auto d-flex justify-content-center align-items-center"
+      class="carousel slide m-auto d-flex justify-content-center align-items-center p-4"
       style="max-width: 30rem"
       data-bs-ride="carousel"
     >
@@ -192,7 +199,7 @@
       <!--/CONTAINER-->
       <div class="container">
         <div class="row">
-          <div class="columna  p-2 m-1" style="max-width: 27rem">
+          <div class="columna p-2 m-1" style="max-width: 27rem">
             <h2
               id="Estudios"
               class="tituloColumna fw-bold"
@@ -209,7 +216,7 @@
               <p>Desafío Latam</p>
             </ol>
           </div>
-          <div class="columna  p-2 m-1" style="width: 27rem">
+          <div class="columna p-2 m-1" style="width: 27rem">
             <h2
               id="Experiencia"
               class="tituloColumna fw-bold"
@@ -234,7 +241,13 @@
       class="carousel carousel-dark slide"
       data-bs-ride="carousel"
     >
-      <h2 id="Portafolio" class="portafolio display-4 fw-bold my-4" style="text-align: center">Portafolio</h2>
+      <h2
+        id="Portafolio"
+        class="portafolio display-4 fw-bold my-4"
+        style="text-align: center"
+      >
+        Portafolio
+      </h2>
       <div class="carousel-indicators">
         <button
           type="button"
@@ -265,44 +278,54 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="50000">
-          <a title="ladingpage" href="assets/portafolio/ladingpage/index.html" target="_blank"><img
-            src="assets/img/portafolio/ladingpage.JPG"
-            class="d-block w-75"
-            alt="..."
+          <a
+            title="ladingpage"
+            href="assets/portafolio/ladingpage/index.html"
+            target="_blank"
+            ><img
+              src="assets/img/portafolio/ladingpage.JPG"
+              class="d-block w-75"
+              alt="..."
           /></a>
-          <div class="carousel-caption d-none d-md-block">
-            
-          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <div class="carousel-item" data-bs-interval="10000">
-          <a title="Cuppon" href="assets/portafolio/cupon/index.html" target="_blank"><img
-            src="assets/img/portafolio/cupon.JPG"
-            class="d-block w-75"
-            alt="..."
+          <a
+            title="Cuppon"
+            href="assets/portafolio/cupon/index.html"
+            target="_blank"
+            ><img
+              src="assets/img/portafolio/cupon.JPG"
+              class="d-block w-75"
+              alt="..."
           /></a>
-          <div class="carousel-caption d-none d-md-block">
-            
-          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <a title="Iguana page" href="assets/portafolio/Desafío 3 - Valeria Donoso/index.html" target="_blank"><img
-            src="assets/img/portafolio/iguanapage.JPG"
-            class="d-block w-75"
-            alt="..."
+          <a
+            title="Iguana page"
+            href="assets/portafolio/Desafío 3 - Valeria Donoso/index.html"
+            target="_blank"
+            ><img
+              src="assets/img/portafolio/iguanapage.JPG"
+              class="d-block w-75"
+              alt="..."
           /></a>
-          <div class="carousel-caption d-none d-md-block">
-            
-          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <div class="carousel-item">
-          <a title="Github" href="assets/portafolio/github/index.html" target="_blank"><img
-            src="assets/img/portafolio/github.JPG"
-            class="d-block w-75"
-            alt="..."
+          <a
+            title="Github"
+            href="assets/portafolio/github/index.html"
+            target="_blank"
+            ><img
+              src="assets/img/portafolio/github.JPG"
+              class="d-block w-75"
+              alt="..."
           /></a>
-          </div>
         </div>
       </div>
+
       <button
         class="carousel-control-prev"
         type="button"
@@ -325,9 +348,9 @@
     <footer id="Contacto">
       <p>
         Valeria Donoso
-        <br>
+        <br />
         +569 77097948 - valeriadonoc@gmail.com
-        <br>
+        <br />
         2023
       </p>
     </footer>
