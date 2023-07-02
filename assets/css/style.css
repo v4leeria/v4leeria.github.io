@@ -60,17 +60,6 @@ footer {
   align-content: center;
 }
 
-.columna {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 1.5rem;
-}
-
-#EstudiosExperiencia {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.carousel-inner img {
+  border-radius: 1rem;
 }
