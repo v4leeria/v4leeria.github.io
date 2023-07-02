@@ -40,6 +40,7 @@ body {
   margin: auto;
   display: block;
   justify-content: center;
+  border-radius: 1rem;
 }
 
 .list-group-item {
@@ -60,6 +61,7 @@ footer {
   align-content: center;
 }
 
-.carousel-inner img {
+.columna {
+  background-color: white;
   border-radius: 1rem;
 }
