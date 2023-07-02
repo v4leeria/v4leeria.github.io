@@ -55,3 +55,8 @@ footer {
   text-align: center;
   align-content: center;
 }
+
+.columna {
+  background-color: white;
+  padding: 2rem;
+}
