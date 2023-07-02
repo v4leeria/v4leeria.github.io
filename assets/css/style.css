@@ -14,7 +14,11 @@ body {
 }
 
 .card {
-  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 .card img {
   width: auto;
@@ -59,10 +63,14 @@ footer {
 .columna {
   background-color: white;
   padding: 2rem;
+  border-radius: 1.5rem;
 }
 
-/* #Acercademicolumna {
+#EstudiosExperiencia {
   display: flex;
   justify-content: center;
-  align-content: center;
-} */
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
